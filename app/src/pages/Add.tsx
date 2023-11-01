@@ -43,13 +43,13 @@ function AddForm() {
         <h1>AddForm</h1>
         <Form handleAddMovie={handleAddMovie} emptyMovie={movie} />
       </Layout>
-
+{/* 
       <Modal
         isOpen={isMovieAdded || addError !== null}
         onClose={closeAddSuccessDialog}
       >
         {addError ? addError : "Successfully added"}
-      </Modal>
+      </Modal> */}
     </>
   );
 }
