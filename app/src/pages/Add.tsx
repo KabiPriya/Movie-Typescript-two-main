@@ -33,8 +33,8 @@ function AddForm() {
 
   const closeAddSuccessDialog = () => {
     setIsMovieAdded(false);
-    // setAddError(null);
-    // navigate("/");
+    setAddError(null);
+    navigate("/");
   };
 
   return (
