@@ -31,11 +31,11 @@ function AddForm() {
     }
   }
 
-  const closeAddSuccessDialog = () => {
-    setIsMovieAdded(false);
-    setAddError(null);
-    navigate("/");
-  };
+  // const closeAddSuccessDialog = () => {
+  //   setIsMovieAdded(false);
+  //   setAddError(null);
+  //   navigate("/");
+  // };
 
   return (
     <>
