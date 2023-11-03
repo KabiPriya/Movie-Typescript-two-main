@@ -6,6 +6,9 @@ import { IMovieAdd } from "../type";
 import { useState } from "react";
 import Modal from "../components/modal";
 
+
+// used to add form 
+
 function AddForm() {
   const navigate = useNavigate();
   const movie = {
