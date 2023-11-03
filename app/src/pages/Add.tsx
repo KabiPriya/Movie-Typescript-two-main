@@ -34,11 +34,7 @@ function AddForm() {
     }
   }
 
-  // const closeAddSuccessDialog = () => {
-  //   setIsMovieAdded(false);
-  //   setAddError(null);
-  //   navigate("/");
-  // };
+  
 
   return (
     <>
