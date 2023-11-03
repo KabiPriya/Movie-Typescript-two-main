@@ -15,7 +15,7 @@ function AddForm() {
     title: "",
     year: 0,
   };
-// Declaring usestate
+
   const [isMovieAdded, setIsMovieAdded] = useState(false);
   const [addError, setAddError] = useState<string | null>(null);
 
