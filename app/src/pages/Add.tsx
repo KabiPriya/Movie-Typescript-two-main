@@ -39,10 +39,10 @@ function AddForm() {
 
   return (
     <>
-      <Layout title="addForm">
+      {/* <Layout title="addForm">
         <h1>AddForm</h1>
         <Form handleAddMovie={handleAddMovie} emptyMovie={movie} />
-      </Layout>
+      </Layout> */}
 
       <Modal
         isOpen={isMovieAdded || addError !== null}
