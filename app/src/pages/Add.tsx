@@ -6,9 +6,6 @@ import { IMovieAdd } from "../type";
 import { useState } from "react";
 import Modal from "../components/modal";
 
-
- 
-
 function AddForm() {
   const navigate = useNavigate();
   const movie = {
@@ -34,27 +31,18 @@ function AddForm() {
     }
   }
 
-<<<<<<< HEAD
-  const closeAddSuccessDialog = () => {
-    setIsMovieAdded(false);
-    setAddError(null);
-    navigate("/");
-  };
-
-=======
-  
-// const closeAddSuccessDialog = () => {
+  // const closeAddSuccessDialog = () => {
   //   setIsMovieAdded(false);
   //   setAddError(null);
   //   navigate("/");
   // };
->>>>>>> 0562a92d7f37dafa22b0451ff96ebbea929efb3d
+
   return (
     <>
-      {/* <Layout title="addForm">
+      <Layout title="addForm">
         <h1>AddForm</h1>
         <Form handleAddMovie={handleAddMovie} emptyMovie={movie} />
-      </Layout> */}
+      </Layout>
 
       <Modal
         isOpen={isMovieAdded || addError !== null}
