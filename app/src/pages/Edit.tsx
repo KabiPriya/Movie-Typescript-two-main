@@ -14,7 +14,7 @@ const EditForm: React.FC<IEdit> = ({ movie }) => {
     year: movie.year,
   };
 
-  //added
+  
 
   useEffect(() => {
     console.log("Getting info of ", id);
