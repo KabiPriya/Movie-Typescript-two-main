@@ -33,11 +33,7 @@ const EditForm: React.FC<IEdit> = ({ movie }) => {
     }
   }
 
-  // const closeModalAndNavigate = () => {
-  //   setIsModalOpen(false);
-  //   setEditError(null);
-  //   navigate("/");
-  // };
+ 
 
   return (
     <>
