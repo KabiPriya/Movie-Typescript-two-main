@@ -14,8 +14,7 @@ const EditForm: React.FC<IEdit> = ({ movie }) => {
     year: movie.year,
   };
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [editError, setEditError] = useState<string | null>(null);
+  //added
 
   useEffect(() => {
     console.log("Getting info of ", id);
