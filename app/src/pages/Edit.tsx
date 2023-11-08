@@ -20,17 +20,17 @@ const EditForm: React.FC<IEdit> = ({ movie }) => {
     console.log("Getting info of ", id);
   }, [id]);
 
-  async function handleEditMovie(editedmovie: IMovieAdd) {
-    try {
-      const response = await updateMovie(editedmovie, movie.id);
-      console.log(response);
-      setIsModalOpen(true);
-      setEditError(null);
-    } catch (error) {
-      console.log(error);
-      setEditError("Error editing the movie.");
-    }
-  }
+  // async function handleEditMovie(editedmovie: IMovieAdd) {
+  //   try {
+  //     const response = await updateMovie(editedmovie, movie.id);
+  //     console.log(response);
+  //     setIsModalOpen(true);
+  //     setEditError(null);
+  //   } catch (error) {
+  //     console.log(error);
+  //     setEditError("Error editing the movie.");
+  //   }
+  // }
 
  
 
