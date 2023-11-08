@@ -16,9 +16,9 @@ const EditForm: React.FC<IEdit> = ({ movie }) => {
 
   
 
-  // useEffect(() => {
-  //   console.log("Getting info of ", id);
-  // }, [id]);
+  useEffect(() => {
+    console.log("Getting info of ", id);
+  }, [id]);
 
   async function handleEditMovie(editedmovie: IMovieAdd) {
     try {
