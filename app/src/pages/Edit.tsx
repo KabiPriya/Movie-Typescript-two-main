@@ -43,9 +43,9 @@ const EditForm: React.FC<IEdit> = ({ movie }) => {
           type="edit"
         />
       </Layout>
-
+{/* 
       <Modal isOpen={isModalOpen} onClose={closeModalAndNavigate}>
-        {editError ? editError : "Successfully edited"}
+        {editError ? editError : "Successfully edited"} */}
       </Modal>
     </>
   );
