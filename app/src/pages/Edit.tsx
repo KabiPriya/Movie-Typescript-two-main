@@ -36,13 +36,13 @@ const EditForm: React.FC<IEdit> = ({ movie }) => {
 
   return (
     <>
-      {/* <Layout title={`EditMovie${movie.title}`}>
+      <Layout title={`EditMovie${movie.title}`}>
         <Form
           handleAddMovie={handleEditMovie}
           emptyMovie={editValue}
           type="edit"
         />
-      </Layout> */}
+      </Layout>
 {/* 
       <Modal isOpen={isModalOpen} onClose={closeModalAndNavigate}>
         {editError ? editError : "Successfully edited"} */}
