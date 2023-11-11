@@ -3,8 +3,8 @@ import { useNavigate, useParams } from "react-router-dom";
 import { IEdit, IMovieAdd } from "../type";
 import Layout from "../components/layout";
 import { updateMovie } from "../services/api";
-import Form from "../components/MovieForm";
-import Modal from "../components/modal";
+// import Form from "../components/MovieForm";
+// import Modal from "../components/modal";
 
 const EditForm: React.FC<IEdit> = ({ movie }) => {
   const { id } = useParams();
