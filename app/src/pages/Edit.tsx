@@ -6,7 +6,7 @@ import { updateMovie } from "../services/api";
 import Form from "../components/MovieForm";
 import Modal from "../components/modal";
 
-const EditForm: React.FC<IEdit> = ({ movie }) => {
+// const EditForm: React.FC<IEdit> = ({ movie }) => {
   const { id } = useParams();
   const navigate = useNavigate();
   const editValue = {
