@@ -6,7 +6,7 @@ interface IForm {
   emptyMovie: IMovieAdd;
   type?: string;
 }
-// const Form: React.FC<IForm> = ({ handleAddMovie, emptyMovie, type }) => {
+const Form: React.FC<IForm> = ({ handleAddMovie, emptyMovie, type }) => {
 //   const [movie, setMovie] = useState({
 //     title: emptyMovie.title,
 //     year: emptyMovie.year,
