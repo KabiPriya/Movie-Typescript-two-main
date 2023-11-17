@@ -9,7 +9,7 @@ interface IForm {
 const Form: React.FC<IForm> = ({ handleAddMovie, emptyMovie, type }) => {
   const [movie, setMovie] = useState({
     title: emptyMovie.title,
-//     year: emptyMovie.year,
+    year: emptyMovie.year,
 //   });
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
