@@ -6,11 +6,11 @@ interface IForm {
   emptyMovie: IMovieAdd;
   type?: string;
 }
-// const Form: React.FC<IForm> = ({ handleAddMovie, emptyMovie, type }) => {
-//   const [movie, setMovie] = useState({
-//     title: emptyMovie.title,
-//     year: emptyMovie.year,
-//   });
+const Form: React.FC<IForm> = ({ handleAddMovie, emptyMovie, type }) => {
+  const [movie, setMovie] = useState({
+    title: emptyMovie.title,
+    year: emptyMovie.year,
+  });
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     const { name, value } = e.target;
