@@ -12,15 +12,15 @@ const Form: React.FC<IForm> = ({ handleAddMovie, emptyMovie, type }) => {
     year: emptyMovie.year,
   });
 
-  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
-    const { name, value } = e.target;
-    setMovie({ ...movie, [name]: value });
-    console.log(movie);
-  }
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    handleAddMovie(movie);
-  }
+  // function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+  //   const { name, value } = e.target;
+  //   setMovie({ ...movie, [name]: value });
+  //   console.log(movie);
+  // }
+  // function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  //   e.preventDefault();
+  //   handleAddMovie(movie);
+  // }
   return (
     <form onSubmit={(e) => handleSubmit(e)}>
       <label htmlFor="title">
