@@ -14,7 +14,7 @@ const Form: React.FC<IForm> = ({ handleAddMovie, emptyMovie, type }) => {
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     const { name, value } = e.target;
-  //   setMovie({ ...movie, [name]: value });
+    setMovie({ ...movie, [name]: value });
   //   console.log(movie);
   // }
   // function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
