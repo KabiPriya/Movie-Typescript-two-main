@@ -58,7 +58,7 @@ const Form: React.FC<IForm> = ({ handleAddMovie, emptyMovie, type }) => {
         </>
       ) : (
         <>
-          {/* <button type="submit">add movie</button> */}
+          <button type="submit">add movie</button>
         </>
       )}
     </form>
